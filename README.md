@@ -1,8 +1,9 @@
+YousefAbusulttan
 # Storingsmelder
 
 Een klein meldingensysteem voor storingen. Je meldt een storing via een
 formulier, je ziet de openstaande meldingen in een lijst, en je sluit ze af als
-ze opgelost zijn.
+ze opgelost zijn
 
 Deze applicatie is het startpunt voor **Cloud computing (B-UCLL-MGN13A)**. Je
 werkt er het hele semester mee. De applicatie zelf verandert bijna niet, wat
