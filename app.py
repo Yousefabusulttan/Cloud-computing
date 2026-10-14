@@ -1,4 +1,4 @@
-"""
+""" APP_TITEL = "Storingsmelder Test"
 Storingsmelder - een klein meldingensysteem voor storingen.
 
 Cloud computing (B-UCLL-MGN13A), Graduaat Systeem- en netwerkbeheer, UCLL.
