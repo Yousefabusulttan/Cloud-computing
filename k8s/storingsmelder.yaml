@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: storingsmelder
+  labels:
+    app: storingsmelder
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: storingsmelder
+  template:
+    metadata:
+      labels:
+        app: storingsmelder
+    spec:
+      containers:
+      - name: storingsmelder
+        image: ghcr.io/yousefabusulttan/cloud-computing:latest
+        ports:
+        - containerPort: 8000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: storingsmelder-service
+spec:
+  type: ClusterIP
+  selector:
+    app: storingsmelder
+  ports:
+    - port: 80
+      targetPort: 8000
