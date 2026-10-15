@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: storingsmelder
-        image: ghcr.io/yousefabusulttan/cloud-computing:latest
+        image: ghcr.io/yousefabusulttan/cloud-computing:1.0.0
         ports:
         - containerPort: 8000
 ---
